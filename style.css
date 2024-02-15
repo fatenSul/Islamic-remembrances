@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    gap: 30px;
+    padding: 30px;
+}
+
+.card {
+
+    flex: 0 0 35%;
+    height: 150px;
+    width: 1120px;
+    background-color: #800080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+span{
+    padding: 20px;
+}
+.circle {
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.57);
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
